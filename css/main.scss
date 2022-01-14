@@ -92,8 +92,7 @@ h1 {
   .down-arrow {
     stroke: white;
     position: absolute;
-    margin-top: 15px;
-    bottom: 2em;
+    bottom: 15em;
     width: 1em;
     animation: moveArrow 1s alternate-reverse infinite;
 
@@ -185,7 +184,7 @@ h1 {
     .down-arrow {
       stroke: #000;
       position: unset;
-
+      margin-top: 15px;
       path {
         fill: #000;
       }
